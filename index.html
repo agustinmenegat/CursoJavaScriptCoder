@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="multimedia/style.css">
+  <title>juegapadel.com</title>
+
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Kreon:wght@300&family=Syncopate&display=swap"
+    rel="stylesheet">
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="multimedia/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="multimedia/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="multimedia/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="multimedia/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="multimedia/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="multimedia/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="multimedia/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="multimedia/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="multimedia/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="multimedia/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="multimedia/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="multimedia/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="multimedia/favicon/favicon-16x16.png">
+  <link rel="manifest" href="multimedia/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav id="navbarJS"></nav>
+
+  <section class="fondo mt-1 mb-1">
+    <div class="container pt-5 w-100">
+      <h1 class="tituloIndex" id="tituloH1">RESERVAR TU CANCHA AHORA ES MÁS FÁCIL</h1>
+    </div>
+  </section>
+
+  <section class="mb-5 bg-dark">
+    <div class="div-contenedor"> 
+      <div>
+        <ul id="placesList"></ul>
+        <h4>Ciudad:</h4>
+        <select class="select-style" id="placesSelect"></select>
+      </div>
+      
+      <div>
+        <ul id="daysList"></ul>
+        <h4>Día:</h4>
+        <select class="select-style" id="daysSelect"></select>
+      </div>
+
+      <div>
+        <ul id="hoursList"></ul>
+        <h4>Hora:</h4>
+        <select class="select-style" id="hoursSelect"></select>
+      </div>
+      
+      <div>  
+        <ul id="minutesList"></ul>
+        <h4>Minutos:</h4>
+        <select class="select-style" id="minutesSelect"></select>
+      </div>
+
+      <div>  
+        <ul id="timesList"></ul>
+        <h4>Tiempo:</h4>
+        <select class="select-style" id="timesSelect"></select>
+      </div>
+        
+    </div>  
+
+    <div class="mt-4 mb-5 buscarCancha">
+      <a class="btn botonBuscarCancha" href="canchas.html" role="button">BUSCAR CANCHA</a>
+    </div>
+    
+  </section>
+
+  <section>
+    <h2 class="p-2">Buscá la más cercana a tu domicilio</h2>
+    <div class="mt-4 mb-5">
+      <iframe class="seccion-mapa"
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26171.2444320718!2d-57.94910470735245!3d-34.92136453840384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadel%20la%20plata!5e0!3m2!1ses-419!2sar!4v1629316903741!5m2!1ses-419!2sar"
+        allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>  
+
+  <!-- footer -->
+  <footer id="footerM"></footer>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!--     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    -->
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+  </script>
+
+  <!-- enlace jquery -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+  </script>
+  <!-- enlace javascript -->
+  <script src="multimedia/main.js"></script>
+  <script src="multimedia/footer.js"></script>
+  <script src="multimedia/navbar.js"></script>
+
+
+</body>
+
+</html>

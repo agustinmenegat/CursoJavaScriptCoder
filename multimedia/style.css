@@ -1,0 +1,344 @@
+body {
+    background-color: #dadada;
+    font-family: 'Gruppo', cursive;
+    color: #fafafa;
+    text-align: center;
+    font-size: large;
+    color: #1d1d1d;
+}
+
+.tituloIndex {
+    color: #fafafa;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #000000;
+    border-radius: 5px;
+    display: inline;
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.fondo{
+    background-image: url(../multimedia/img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+@media only screen and (max-width: 991.5px){
+    .fondo{
+        height: 250px;
+    }
+}
+.labelMessage {
+    height: 200px;
+}
+footer {
+    color: #fafafa;
+}
+
+footer a {
+    text-decoration: none;
+    list-style: none;
+    color: #fafafa;
+}
+
+.ds-footer {
+    font-weight: bold;
+}
+.ds-footer1{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.ds-footer:hover{
+    color: #00ffbf;
+}
+
+h2 {
+    color: #fafafa;
+    background-color: #2b2b2b;
+    display: inline;
+    border-radius: 5px;
+}
+
+.juntar-fin {
+    text-align: end;
+}
+.juntar-ppio{
+    text-align: start;
+}
+
+h4 {
+    font-weight: bold;
+    color: #fafafa;
+}
+.links-footer1{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.links-footer:hover {
+    color: #00ffbf;
+    font-weight: bold;
+}
+
+.formMargin {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.tituloRegistrate {
+    margin-top: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #24312d;
+    padding-bottom: 5px;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid #c4c4c4;
+    background-color: #fafafa;
+}
+
+.botonRegistrarme {
+    background-color: #1d1d1d;
+    color: #fafafa;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    transition: all 0.6s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.botonRegistrarme:hover {
+    background-color: #00ffbf;
+    color: #1d1d1d;
+    transform: scale(1.5);
+
+}
+
+.h1-canchas {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.seccionContainer {
+    margin: 0;
+    max-height: 300px;
+}
+
+@media only screen and (min-width: 991.5px){
+.canchasContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+}
+
+.card {
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 2rem;
+    margin: 20px;
+}
+
+.imagen-cancha {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.fotos {
+    border-radius: 5px;
+}
+
+.imagen-cancha2 {
+    height: 400px;
+    max-width: 600px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.h5-fav {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fafafa;
+}
+
+.miCanchaFavorita {
+    color: #fafafa;
+    margin-top: 4rem;
+}
+
+.titulo-card {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btnCanchas {
+    width: 50%;
+    position: relative;
+    left: 22%;
+    display: inline;
+    margin: 1rem 0.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.btnCanchas:hover {
+    background-color: #2b2b2b;
+    color: #fafafa;
+}
+
+.canchasNav {
+    list-style: none;;
+    text-decoration: none;
+    color: #b6b6b6;
+}
+.canchasNav:hover {
+    color: #dbdbdb;
+}
+.jpNav {
+    font-size: x-large;
+    font-weight: bold;
+}
+.imgLogo{
+    max-width: 30px;
+}
+.div-contenedor{
+    margin: 0 200px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+} 
+@media only screen and (max-width: 1100px){
+    .div-contenedor{
+        padding: 20px;
+        display: block;
+        margin: 0;
+    }
+}
+.buscarCancha{
+    padding-bottom: 30px;
+} 
+
+.select-style {
+    padding: 5px 12px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 8rem;
+    text-align: center;
+}
+.itemsList{
+
+    border-radius: 15px;
+    text-align: center;
+}
+.botonBuscarCancha{
+    background-color: #00c795;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.botonBuscarCancha:hover{
+    background-color: #00ffbf;
+    transform: scale(1.2);
+}
+#btnQC{
+    background-color: #00c795;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.btnQC:hover{
+    background-color: #00ffbf;
+    transform: scale(1.2);
+}
+.navItems {
+    display: inline-flex;
+}
+@media only screen and (max-width: 991.5px){
+    .navItems{
+        display: block;
+        text-align: start;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.btnReserva{
+    display: inline;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 7px;
+    font-weight: bold;
+}
+.btnReserva:hover{
+    background-color: #00ffbf;
+}
+
+.copyrightFooter{
+    padding-bottom: 23px;
+}
+.seccion-mapa{
+    height:450px;
+    width: 700px;
+    border-radius: 15px;
+}
+@media only screen and (max-width: 991.5px){
+    .seccion-mapa{
+    height:350px;
+    width: 350px;
+    }
+}
+.inputContainers{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 900px){
+    .inputContainers{
+        display: block;  
+    }
+}
+#btnSend{
+    border-radius: 5px;
+    font-weight: bold;
+}
+#btnSend:hover{
+    color: #fafafa;
+    background-color: #272727;
+}
+.form-floating{
+    margin: 15px 290px;
+}
+.itemsList{
+    text-decoration: none;
+    list-style: none;
+}
+.liEach{
+    font-size: 25px;
+    font-weight: bold;
+}
+.inputContact{
+    width: 40%;
+}
+.inputContact1{
+    width: 40%;
+    height: 200px;
+}
+/* ------------------------------------------------------------------- */

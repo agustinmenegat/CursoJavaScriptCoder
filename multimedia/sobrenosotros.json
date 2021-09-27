@@ -1,0 +1,34 @@
+[
+    {
+        "id":"1",
+        "nombre":"Agustin Menegat",
+        "edad":"32 años",
+        "profesion":"Frontend Developer",
+        "mail":"agustinmenegat@gmail.com",
+        "instagram": "agusmenegat"
+    },
+    {
+        "id":"2",
+        "nombre":"Florencia Gonzalez",
+        "edad":"20 años",
+        "profesion":"Community Manager",
+        "mail":"florgonzalez@gmail.com",
+        "instagram": "florgonz"
+    },
+    {
+        "id":"3",
+        "nombre":"Felipe Ramos",
+        "edad":"26 años",
+        "profesion":"Diseñador Gráfico",
+        "mail":"feliramos@gmail.com",
+        "instagram": "felipao"
+    },
+    {
+        "id":"4",
+        "nombre":"Sofía Etchegaray",
+        "edad":"27 años",
+        "profesion":"Comunicadora Visual",
+        "mail":"sofietche@gmail.com",
+        "instagram": "etchsof"
+    }
+    ]
